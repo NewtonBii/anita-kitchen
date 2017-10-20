@@ -81,3 +81,9 @@ li:hover{
   display: block;
 
 }
+.container#clickable{
+  width: 400;
+  height: 100px;
+  background-color: white;
+  padding-right: 90px;
+}
