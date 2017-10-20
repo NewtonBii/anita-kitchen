@@ -67,9 +67,6 @@ li:hover{
   float: left;
 }
 
-.fastfood-images{
-  display: none;
-}
 .well{
   background-image: url("../img/foodsBg.jpg");
   background-repeat: no-repeat;
