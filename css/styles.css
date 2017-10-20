@@ -46,3 +46,14 @@ display: block;
 body{
   font-family: 'Noto Sans', sans-serif;
 }
+.navigation{
+  background-image: url("../img/foodsBg.jpg");
+  background-repeat: no-repeat;
+}
+
+
+li {
+    display: inline;
+    margin-right: 150px;
+    float: right;
+}
