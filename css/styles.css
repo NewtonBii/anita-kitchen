@@ -1,0 +1,66 @@
+.jumbotron{
+  background-image: url("../img/landing.jpg");
+}
+}
+h3{
+  text-align: center;
+}
+#logo{
+margin-left: auto;
+margin-right: auto;
+display: block;
+
+}
+
+.panel-footer{
+  background-image: url("../img/subscribe.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.break{
+  background-image: url("../img/breakfast.jpg");
+  background-repeat: no-repeat;
+<<<<<<< HEAD
+  padding: 200px;
+=======
+  padding: 250px;
+>>>>>>> 88713bb6aff5d9b2309f38e0d5844e3db5356b19
+  text-align: center;
+  color: white;
+}
+.lunch{
+  background-image: url("../img/lunch.jpg");
+  background-repeat: no-repeat;
+<<<<<<< HEAD
+  padding: 200px;
+=======
+  padding: 250px;
+  text-align: center;
+  color: white;
+
+>>>>>>> 88713bb6aff5d9b2309f38e0d5844e3db5356b19
+}
+.dinner{
+  background-image: url("../img/dinner2.jpg");
+  background-repeat: no-repeat;
+<<<<<<< HEAD
+  padding: 200px;
+}
+#text{
+  padding: 10px;
+=======
+  padding: 250px;
+  text-align: center;
+  color: white;
+}
+
+#we{
+  color: white;
+  text-align: center;
+>>>>>>> 88713bb6aff5d9b2309f38e0d5844e3db5356b19
+}
+
+body{
+  font-family: 'Noto Sans', sans-serif;
+}
