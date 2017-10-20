@@ -89,6 +89,7 @@ body{
   color: #F15A29;
   background-color: white;
 }
+<<<<<<< HEAD
 .container#hidden-images{
   width: 1000px;
   height: 260px;
@@ -98,6 +99,8 @@ body{
 .drinks{
   text-align: right;
 }
+=======
+>>>>>>> Change text aligh to right.
 .drinks{
   text-align: right;
 }
