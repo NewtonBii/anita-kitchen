@@ -112,3 +112,9 @@ body{
 .drinks{
   text-align: right;
 }
+.container#foot-page{
+  background-color: #F15A29;
+  display: block;
+  margin: 0;
+  float: none;
+}
