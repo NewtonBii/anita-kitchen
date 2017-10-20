@@ -93,15 +93,13 @@ li:hover{
   margin-top: 10px;
 }
 
-.row#clickable{
-  background-color: white;
-  height: 50px;
-  border: grey;
-}
 .w3-bar{
   height: 70px;
 }
 .w3-btn{
   width: 200px;
   height: 50px;
+}
+.w3-btn:hover{
+  color: #F15A29;
 }
