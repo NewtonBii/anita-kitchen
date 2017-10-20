@@ -90,17 +90,25 @@ body{
   background-color: white;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .container#hidden-images{
   width: 1000px;
   height: 260px;
   background-color: white;
 
+=======
+.drinks{
+  text-align: right;
+>>>>>>> 16e037bdbb4ee7fc6efd83e0442b9c75d87afdf0
 }
 .drinks{
   text-align: right;
 }
+<<<<<<< HEAD
 =======
 >>>>>>> Change text aligh to right.
+=======
+>>>>>>> 16e037bdbb4ee7fc6efd83e0442b9c75d87afdf0
 .drinks{
   text-align: right;
 }
