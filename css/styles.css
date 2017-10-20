@@ -103,3 +103,7 @@ body{
 .email-subscribe{
   opacity: 0.3;
 }
+
+::-moz-placeholder{
+  color: white;
+}
