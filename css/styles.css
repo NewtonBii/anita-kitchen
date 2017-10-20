@@ -82,8 +82,23 @@ li:hover{
 
 }
 .container#clickable{
-  width: 400;
-  height: 100px;
+  width: 1100px;
+  height: 500px;
   background-color: white;
   padding-right: 90px;
+}
+
+#clickable:hover{
+  color: #F15A29;
+}
+
+#clickable{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.row#clickable{
+  background-color: white;
+  height: 50px;
+  border: grey;
 }
