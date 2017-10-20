@@ -99,7 +99,9 @@ li:hover{
 .w3-btn{
   width: 200px;
   height: 50px;
+  transition: all 0.3s;
 }
 .w3-btn:hover{
   color: #F15A29;
+  background-color: white;
 }
