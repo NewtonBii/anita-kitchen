@@ -57,3 +57,7 @@ li {
     margin-right: 150px;
     float: right;
 }
+
+li a:hover{
+  background-color: white;
+}
