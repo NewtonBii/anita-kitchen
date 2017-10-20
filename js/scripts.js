@@ -1,8 +1,4 @@
-<script>
-function w3_open() {
-  document.getElementById("mySidebar").style.display = "block";
-}
-function w3_close() {
-  document.getElementById("mySidebar").style.display = "none";
-}
-</script>
+$(".clickable-ff").click(function() {
+  $(".fasfood-images").show();
+
+})
