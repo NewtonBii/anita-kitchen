@@ -79,3 +79,9 @@ li a {
 li a:hover{
   background-color: white;
 }
+.w3-teal{
+  background-image: url("../img/landing.jpg");
+  background-size: contain;
+  float: left;
+
+}
