@@ -47,32 +47,15 @@ body{
   font-family: 'Noto Sans', sans-serif;
 }
 
-
-li {
-    display: inline;
-    color:black;
-    text-decoration: none;
-    cursor: pointer;
-    float: right;
-    margin: 100px;
-}
-
-li:hover{
-  background-color: white;
-}
-
 .w3-teal{
   background-image: url("../img/landing.jpg");
   background-size: contain;
   float: left;
 }
 
-.well{
+.well#third-page{
   background-image: url("../img/foodsBg.jpg");
   background-repeat: no-repeat;
-}
-.well well-sm{
-  height: 60px;
 }
 
 .row-centered{
