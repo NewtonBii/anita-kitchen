@@ -12,11 +12,11 @@ display: block;
 
 }
 
-/*.panel-footer{
-//  background-image: url("../img/subscribe.jpg");
+panel-footer{
+  background-image: url("../img/subscribe.jpg");
   background-repeat: no-repeat;
   background-size: auto;
-}*/
+}
 
 .break{
   background-image: url("../img/breakfast.jpg");
@@ -57,8 +57,8 @@ body{
 ul {
     list-style-type: none;
     margin: 220px;
-    padding: 0;
-    overflow: auto;
+
+    overflow: scroll;
     background-color: #DBDCD9;
 }
 
