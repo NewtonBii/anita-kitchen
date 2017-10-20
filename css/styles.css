@@ -93,5 +93,13 @@ body{
   width: 1000px;
   height: 260px;
   background-color: white;
+}
 
+.well#last-page{
+  background-image: url("../img/subscribe.jpg");
+  background-repeat: no-repeat;
+  height: 250px;
+}
+.email-subscribe{
+  opacity: 0.3;
 }
