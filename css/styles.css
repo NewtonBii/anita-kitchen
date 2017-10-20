@@ -47,31 +47,14 @@ body{
   font-family: 'Noto Sans', sans-serif;
 }
 
-.navigation{
-
-  background-repeat: no-repeat;
-
-}
-
-
-ul {
-    list-style-type: none;
-    margin: 220px;
-
-    overflow: ;
-    background-color: #DBDCD9;
-}
-
 
 li {
-    display: block;
+    display: inline;
     color:black;
-    text-align: center;
-    padding: inherit;
     text-decoration: none;
     cursor: pointer;
-    float: left;
-    margin: 40px;
+    float: right;
+    margin: 100px;
 }
 
 li:hover{
@@ -87,7 +70,10 @@ li:hover{
 .fastfood-images{
   display: none;
 }
-.well{
+.well well-lg{
   background-image: url("../img/foodsBg.jpg");
   background-repeat: no-repeat;
+}
+.well well-sm{
+  height: 60px;
 }
