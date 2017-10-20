@@ -12,11 +12,11 @@ display: block;
 
 }
 
-.panel-footer{
-  background-image: url("../img/subscribe.jpg");
+/*.panel-footer{
+//  background-image: url("../img/subscribe.jpg");
   background-repeat: no-repeat;
   background-size: auto;
-}
+}*/
 
 .break{
   background-image: url("../img/breakfast.jpg");
@@ -46,16 +46,32 @@ display: block;
 body{
   font-family: 'Noto Sans', sans-serif;
 }
+
 .navigation{
   background-image: url("../img/foodsBg.jpg");
   background-repeat: no-repeat;
+  backface-visibility: visible;
 }
 
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
 li {
-    display: inline;
-    margin-right: 200px;
-    float: right;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 li a:hover{
