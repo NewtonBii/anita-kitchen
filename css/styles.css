@@ -89,11 +89,13 @@ body{
   color: #F15A29;
   background-color: white;
 }
+
 .container#hidden-images{
   width: 1000px;
   height: 260px;
   background-color: white;
 }
+
 
 .well#last-page{
   background-image: url("../img/subscribe.jpg");
@@ -106,4 +108,7 @@ body{
 
 ::-moz-placeholder{
   color: white;
+}
+.drinks{
+  text-align: right;
 }
