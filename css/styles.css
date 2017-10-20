@@ -70,7 +70,7 @@ li:hover{
 .fastfood-images{
   display: none;
 }
-.well well-lg{
+.well{
   background-image: url("../img/foodsBg.jpg");
   background-repeat: no-repeat;
 }
