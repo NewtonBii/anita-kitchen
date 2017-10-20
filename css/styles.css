@@ -21,21 +21,21 @@ display: block;
 .break{
   background-image: url("../img/breakfast.jpg");
   background-repeat: no-repeat;
-  padding: 200px;
+  padding: 100px;
   text-align: center;
   color: white;
 }
 .lunch{
   background-image: url("../img/lunch.jpg");
   background-repeat: no-repeat;
-  padding: 250px;
+  padding: 100px;
   text-align: center;
   color: white;
 }
 .dinner{
   background-image: url("../img/dinner2.jpg");
   background-repeat: no-repeat;
-  padding: 200px;
+  padding: 100px;
 }
 
 #we{
