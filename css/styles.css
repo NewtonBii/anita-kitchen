@@ -48,7 +48,7 @@ body{
 }
 
 .navigation{
-  background-image: url("../img/foodsBg.jpg");
+
   background-repeat: no-repeat;
 
 }
@@ -58,7 +58,7 @@ ul {
     list-style-type: none;
     margin: 220px;
 
-    overflow: scroll;
+    overflow: ;
     background-color: #DBDCD9;
 }
 
@@ -86,4 +86,8 @@ li:hover{
 
 .fastfood-images{
   display: none;
+}
+.well{
+  background-image: url("../img/foodsBg.jpg");
+  background-repeat: no-repeat;
 }
