@@ -98,3 +98,10 @@ li:hover{
   height: 50px;
   border: grey;
 }
+.w3-bar{
+  height: 70px;
+}
+.w3-btn{
+  width: 200px;
+  height: 50px;
+}
