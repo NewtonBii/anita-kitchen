@@ -77,3 +77,10 @@ li:hover{
 .well well-sm{
   height: 60px;
 }
+
+.row-centered{
+  float: none;
+  margin: 0 auto;
+  display: block;
+
+}
