@@ -1,12 +1,14 @@
-function validateEmail() {
+$(document).ready(function () {
+  function validateEmail() {
 
 
-var email = document.getElementById("mail");
-email.addEventListener("input", function (event) {
-  if (email.validity.typeMismatch) {
-    email.setCustomValidity("You have entered an invalid email address!");
-  } else {
-    alert("Congratulations!")
+  var email = document.getElementById("mail");
+  email.addEventListener("input", function (event) {
+    if (email.validity.typeMismatch) {
+      email.setCustomValidity("You have entered an invalid email address!");
+    } else {
+      alert("Congratulations!")
+    }
+  });
   }
 });
-}
