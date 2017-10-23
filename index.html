@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Arvo|Droid+Sans|Noto+Sans|Open+Sans|PT+Serif|Ubuntu" rel="stylesheet">
     <script src="js/jquery-3.2.1.js"></script>
-    <script src="js/scripts.js"></script>
 
     <title>Anita's Kitchen</title>
   </head>
@@ -45,100 +44,113 @@
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row" id="second-page">
         <div class="col-lg-6">
           <div class="imgs-fastfood">
-            <img src="img/fastFood1.jpg">
-            <img src="img/fastFood2.jpg">
-          </div>
-          <div class="drinks" style="text-align:right">
-            <h4>Drinks</h4>
-              <h5>We also produce delicious drinks</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales ultrices ante, et euismod erat laoreet ut. Ut eget justo ac est venenatis elementum. Aliquam auctor leo eget semper accumsan. Donec gravida dolor in nibh tempor, sit amet tempor ex semper. Suspendisse sit amet turpis quis ipsum molestie semper ut vel augue. Curabitur dignissim posuere risus, sed tincidunt turpis semper non. Aenean convallis mattis nisl. Sed velit sapien, viverra sed felis quis, gravida lacinia dolor.</p>
-              <button type="click" id="view-gallery">VIEW GALLERY</button>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <h4>Fast Food</h4>
-            <h5>You'll love our delicious fast food</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales ultrices ante, et euismod erat laoreet ut. Ut eget justo ac est venenatis elementum. Aliquam auctor leo eget semper accumsan. Donec gravida dolor in nibh tempor, sit amet tempor ex semper. Suspendisse sit amet turpis quis ipsum molestie semper ut vel augue. Curabitur dignissim posuere risus, sed tincidunt turpis semper non. Aenean convallis mattis nisl. Sed velit sapien, viverra sed felis quis, gravida lacinia dolor. Maecenas a mattis diam.Sed eget arcu posuere, iaculis lorem nec, maximus erat. Vestibulum at nisl ut velit fermentum pulvinar. Interdum et malesuada fames ac ante ipsum primis in faucibus.</br><button type="click" id="view-gallery2">VIEW GALLERY</button></p>
-            <img src="img/drink1.jpg"><img src="img/drink2.jpg">
-        </div>
-      </div>
-      <div class="well" id="third-page">
-        <div class="container" id="clickable">
-          <div class="w3-show-inline-block">
-            <div class="w3-bar">
-              <button class="w3-btn" id="fast-button">Fast Food</button><button class="w3-btn">Drinks</button><button class="w3-btn">Chicken</button><button class="w3-btn">Rice</button>
+            <div class="images-border">
+              <img src="img/fastFood1.jpg">
+              <img src="img/fastFood2.jpg">
             </div>
           </div>
         </div>
-        <div class="container" id="hidden-images">
-          <div class="fastfood-images">
-            <button style="color:#F15A29"class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-              <img src="img/chickenBurger.jpg" class="mySlides">
-              <img src="img/beefBurger.jpg" class="mySlides">
-              <img src="img/chickenPizza.jpg" class="mySlides">
-            <button style="color:#F15A29"class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+          <div class="col-lg-6">
+            <h4>Fast Food</h4>
+              <h5>You'll love our delicious fast food</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales ultrices ante, et euismod erat laoreet ut. Ut eget justo ac est venenatis elementum. Aliquam auctor leo eget semper accumsan. Donec gravida dolor in nibh tempor, sit amet tempor ex semper. Suspendisse sit amet turpis quis ipsum molestie semper ut vel augue. Curabitur dignissim posuere risus, sed tincidunt turpis semper non. Aenean convallis mattis nisl. Sed velit sapien, viverra sed felis quis, gravida lacinia dolor. Maecenas a mattis diam.Sed eget arcu posuere, iaculis lorem nec, maximus erat. Vestibulum at nisl ut velit fermentum pulvinar. Interdum et malesuada fames ac ante ipsum primis in faucibus.</br><button type="click" id="view-gallery2">VIEW GALLERY</button></p>
           </div>
-        </div>
-      </div>
-      <div class="container" id="customer-page">
-        <div class="well" id="customer-page">
-          <div class="row" id="customer-page">
-            <div class="col-lg-8" style="text-align:center">
-              <h4 style="color:#F15A29">Happy Customers</h4>
-                <h5>George Richard</h5>
-                  <p>Great Food! Menu awesome, there foods are not only great but</br>also in the right price. I'll highly recommend them :)</p>
-                  <button style="color:#F15A29"class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-                    <img src="img/p1.png" class="mySlides">
-                    <img src="img/p2.png" class="mySlides">
-                    <img src="img/p3.png" class="mySlides">
-                  <button style="color:#F15A29"class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+          </div>
+          <div class="col-lg-6">
+            <div class="drinks" style="text-align:right">
+              <h4>Drinks</h4>
+                <h5>We also produce delicious drinks</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales ultrices ante, et euismod erat laoreet ut. Ut eget justo ac est venenatis elementum. Aliquam auctor leo eget semper accumsan. Donec gravida dolor in nibh tempor, sit amet tempor ex semper. Suspendisse sit amet turpis quis ipsum molestie semper ut vel augue. Curabitur dignissim posuere risus, sed tincidunt turpis semper non. Aenean convallis mattis nisl. Sed velit sapien, viverra sed felis quis, gravida lacinia dolor.</p>
+                <button type="click" id="view-gallery">VIEW GALLERY</button>
             </div>
-            <div class="col-lg-4" style="text-align:center">
-              <h4 style="color:#F15A29; text"><strong>About Menu</strong></h4>
-              <p>We are menu a little team of 7 members. Ut wisi enim ad minim veniam, qis nos trudexter ci tation ullamcorper suscipt lob ortis nisl ut alquip ex ea commodo cnse qaut. Duisau tem vel eum iriure dolir in.</p>
+          </div>
+          <div class="col-lg-6">
+            <div class="images-border">
+              <img src="img/drink1.jpg"><img src="img/drink2.jpg">
             </div>
           </div>
         </div>
-      </div>
-      <div class="container" id="last-page">
-        <div class="container" id="second-last">
-
-          <form class="subscribe">
-            <div class="row-centered">
-              <div class="col md-3 col md-offset text-center" style="font-size:25px; color:white">
-               <label for="email"><strong>Get our daily food items delivered to your email</strong></label>
+        <div class="container" id="wells">
+          <div class="well" id="tabs" style="height:420px">
+            <div id="tab1" class="container">
+              <ul class="nav nav-tabs">
+                <li class="active"><a  href="#1" data-toggle="tab">Fast Food</a></li>
+                <li><a href="#2" data-toggle="tab">Drinks</a></li>
+                <li><a href="#3" data-toggle="tab">Chicken</a></li>
+                <li><a href="#4" data-toggle="tab">Rice</a></li>
+              </ul>
+            <div class="tab-content">
+              <div class="tab-pane active" id="1">
+                <img src="img/chickenBurger.jpg">
+                <img src="img/beefBurger.jpg">
+                <img src="img/chickenPizza.jpg">
               </div>
-              <div class="col md-3 col md-offset text-center" style="font-size:25px">
-                <input type="email" class="email-subscribe" placeholder="Your Email" style="text-align:center" id="mail"></input>
-                <button type="submit" id="btn" style="background-color:#F15A29; color:white">SUBMIT</button>
+                <div class="tab-pane" id="2">
+
+                </div>
+                  <div class="tab-pane" id="3">
+
+                  </div>
+                </div>
               </div>
             </div>
-          </form>
-
+            <div class="container" id="customer-page">
+              <div class="well" style="margin:auto; display:block">
+                <div class="row" id="customer-page">
+                  <div class="col-lg-8" style="text-align:center">
+                    <h4 style="color:#F15A29">Happy Customers</h4>
+                      <h5>George Richard</h5>
+                        <p>Great Food! Menu awesome, there foods are not only great but</br>also in the right price. I'll highly recommend them :)</p>
+                        <button style="color:#F15A29"class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                          <img src="img/p1.png" class="mySlides">
+                          <img src="img/p2.png" class="mySlides">
+                          <img src="img/p3.png" class="mySlides">
+                        <button style="color:#F15A29"class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+                  </div>
+                  <div class="col-lg-4" style="text-align:center">
+                    <h4 style="color:#F15A29; text"><strong>About Menu</strong></h4>
+                    <p>We are menu a little team of 7 members. Ut wisi enim ad minim veniam, qis nos trudexter ci tation ullamcorper suscipt lob ortis nisl ut alquip ex ea commodo cnse qaut. Duisau tem vel eum iriure dolir in.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container" id="last-page">
+            <div class="container" id="second-last">
+              <form id="mail" class="subscribe">
+                <div class="row-centered">
+                  <div class="col md-3 col md-offset text-center" style="font-size:25px; color:white">
+                   <label for="email"><strong>Get our daily food items delivered to your email</strong></label>
+                  </div>
+                  <div class="col md-3 col md-offset text-center" style="font-size:25px">
+                    <input type="email" class="email-subscribe" placeholder="Your Email" style="text-align:center" ></input>
+                    <button type="submit" id="btn" style="background-color:#F15A29; color:white">SUBMIT</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="container" id="foot-page">
+              <div class="col-md-2 col-md-offset-5 text center" id="foot">
+                <img src="img/logo_white.png" style="float:left; margin-top:20px">
+                <p style="color:white;font-size:27px; line-height:80px">MENU</p>
+              </div>
+              <div class="col-md-2 col-md-offset-5 text center" id="foot">
+                <p style="color:white; line-height:50px;">That's What We Are</p>
+              </div>
+              <div class="col-md-2 col-md-offset-5 text center" id="foot">
+                <img src="img/facebook.png" style="margin-right:15px">
+                <img src="img/twitter.png" style="margin-right:15px">
+                <img src="img/pinterest.png">
+              </div>
+              <div class="col-md-2 col-md-offset-5 text center" id="foot">
+               <p style="color:white; line-height:70px">2016 Menu Restaurant</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="container" id="foot-page">
-          <div class="col-md-2 col-md-offset-5 text center" id="foot">
-            <img src="img/logo_white.png" style="float:left; margin-top:20px">
-            <p style="color:white;font-size:27px; line-height:80px">MENU</p>
-          </div>
-          <div class="col-md-2 col-md-offset-5 text center" id="foot">
-            <p style="color:white; line-height:50px;">That's What We Are</p>
-          </div>
-          <div class="col-md-2 col-md-offset-5 text center" id="foot">
-            <img src="img/facebook.png" style="margin-right:15px">
-            <img src="img/twitter.png" style="margin-right:15px">
-            <img src="img/pinterest.png">
-          </div>
-          <div class="col-md-2 col-md-offset-5 text center" id="foot">
-           <p style="color:white; line-height:70px">2016 Menu Restaurant</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
+          <script src="js/scripts.js"></script>
   </body>
-
 </html>
