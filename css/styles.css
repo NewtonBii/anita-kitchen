@@ -76,7 +76,7 @@ background-color: #F15A29;
 }
 #tab1{
   border-radius: 20px 20px 0 0;
-  width: 890px;
+  width: 900px;
 
 }
 #tab1.tab-content{
@@ -89,4 +89,8 @@ background-color: #F15A29;
 }
 .images-border{
   border-style: solid;
+}
+.tab-content{
+  background-color: white;
+  height: 270px;
 }
