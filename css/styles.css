@@ -1,37 +1,29 @@
 h3{
   text-align: center;
 }
-#logo{
-margin-left: auto;
-margin-right: auto;
-display: block;
-
-}
-
-panel-footer{
-  background-image: url("../img/subscribe.jpg");
-  background-repeat: no-repeat;
-  background-size: auto;
-}
 
 .break{
   background-image: url("../img/breakfast.jpg");
   background-repeat: no-repeat;
-  
+  padding: 100px;
   text-align: center;
   color: white;
+  display: flex;
 }
+
 .lunch{
   background-image: url("../img/lunch.jpg");
   background-repeat: no-repeat;
   padding: 100px;
   text-align: center;
   color: white;
+  display: flex;
 }
 .dinner{
   background-image: url("../img/dinner2.jpg");
   background-repeat: no-repeat;
   padding: 100px;
+  display: flex;
 }
 
 #we{
@@ -43,57 +35,19 @@ body{
   font-family: 'Noto Sans', sans-serif;
 }
 
-.w3-teal{
-  background-image: url("../img/landing.jpg");
-  background-size: contain;
-  float: left;
-}
-
-.well#third-page{
-  background-image: url("../img/foodsBg.jpg");
-  background-repeat: no-repeat;
-}
-
 .row-centered{
   float: none;
   margin: 0 auto;
   display: block;
 
 }
-.container#clickable{
-  width: 1000px;
-  height: 50px;
-  background-color: white;
-  padding-right: 90px;
+.well#tabs{
+  background-image: url("../img/foodsBg.jpg");
+  background-repeat: no-repeat;
+
 }
 
-#clickable{
-  text-align: center;
-  margin-top: 10px;
-}
-
-.w3-bar{
-  height: 70px;
-}
-.w3-btn{
-  width: 200px;
-  height: 50px;
-  transition: all 0.3s;
-  margin: 0;
-}
-.w3-btn:hover{
-  color: #F15A29;
-  background-color: white;
-}
-
-.container#hidden-images{
-  width: 1000px;
-  height: 260px;
-  background-color: white;
-}
-
-
-.container#last-page{
+.container#second-last{
   background-image: url("../img/subscribe.jpg");
   background-repeat: no-repeat;
   height: 250px;
@@ -109,14 +63,30 @@ body{
   text-align: right;
 }
 .container#foot-page{
-  background-color: #F15A29;
-  display: block;
-  margin: 0;
-  float: none;
+background-color: #F15A29;
 }
-
 .container#first-page{
   background-image: url("../img/landing.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+.nav-tabs{
+  color : white;
+  background-color: white;
+}
+#tab1{
+  border-radius: 20px 20px 0 0;
+  width: 890px;
+
+}
+#tab1.tab-content{
+  padding: 5px 15px;
+}
+.col-lg-4{
+  border-left-style: outset;
+  border-width: thick;
+  border-color: #496B79;
+}
+.images-border{
+  border-style: solid;
 }
