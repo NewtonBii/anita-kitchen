@@ -1,57 +1,75 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108567545-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-108567545-1');
+    </script>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Arvo|Droid+Sans|Noto+Sans|Open+Sans|PT+Serif|Ubuntu" rel="stylesheet">
-    <script src="js/jquery-3.2.1.js"></script>
-
     <title>Anita's Kitchen</title>
   </head>
   <body>
     <div class="container">
       <div class="container" id="first-page">
-            <img src="img/logoBig.png" style="display:block; margin:auto">
-            <p id="we">We Provide the Best Food</br> At the <strong>Right Price</strong></p>
-      </div>
-      <div class="container" id="mid-page">
-        <div class="row">
-          <div class="col-md-3">
-            <div class="happy">
-              <div class="happy-hour" style="height:100px;text-align:center;">
-                <p><em>Happy Hour</em></p>
+        <div class="col-md-12 media">
+          <div class="col-md-12 overlay">
+            <div class="menu">
+              <div id="myNav" class="overlayMenu">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                  <a href="#"></a>
+                  <a href="#"></a>
+                  <a href="#"></a>
+                </div>
               </div>
-              <div class="party-time" style="height:100px ; background-color:#F15A29; text-align:center;">
-                <p><em>Party time</em></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="break">
-              <p><em>Breakfast</em></p>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="lunch">
-              <p><em>Lunch</em></p>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="dinner">
-              <p><em>Dinner</em></p>
+              <span class="navIcon" onclick="openNav()">&#9776; </span>
             </div>
           </div>
         </div>
+        <img src="img/logoBig.png" style="display:block; margin:auto">
+        <p id="we">We Provide the Best Food</br> At the <strong>Right Price</strong></p>
       </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="col-lg-3">
+                <div class="happy-hour">
+                  <h3><em>Happy Hour</em></h3>
+                </div>
+                <div class="party-time">
+                  <h3><em>Party time</em></h3>
+                </div>
+            </div>
+            <div class="col-lg-3" id="break">
+              <div class="overlay">
+                <h3><em>Breakfast</em></h3>
+              </div>
+            </div>
+            <div class="col-lg-3" id="lun">
+              <div class="overlay">
+                <h3><em>Lunch</em></h3>
+              </div>
+            </div>
+            <div class="col-lg-3" id="din">
+              <div class="overlay">
+                <h3><em>Dinner</em></h3>
+              </div>
+            </div>
+          </div>
+        </div>
       <div class="row" id="second-page">
         <div class="col-lg-6">
-          <div class="imgs-fastfood">
             <div class="images-border">
               <img src="img/fastFood1.jpg">
               <img src="img/fastFood2.jpg">
             </div>
-          </div>
         </div>
           <div class="col-lg-6">
             <h4>Fast Food</h4>
@@ -84,15 +102,15 @@
               </ul>
             <div class="tab-content">
               <div class="tab-pane active" id="1">
-                <img src="img/chickenBurger.jpg" style="padding:3px">
-                <img src="img/beefBurger.jpg" style="padding:3px">
-                <img src="img/chickenPizza.jpg" style="padding:3px">
+                <button style="color:#F15A29"class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                  <img src="img/chickenBurger.jpg">
+                  <img src="img/beefBurger.jpg">
+                  <img src="img/chickenPizza.jpg">
+                <button style="color:#F15A29"class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
               </div>
                 <div class="tab-pane" id="2">
-
                 </div>
                   <div class="tab-pane" id="3">
-
                   </div>
                 </div>
               </div>
@@ -151,6 +169,7 @@
             </div>
           </div>
         </div>
+        <script src="js/jquery-3.2.1.js" charset="utf-8"></script>
           <script src="js/scripts.js"></script>
   </body>
 </html>
