@@ -112,8 +112,14 @@ background-color: #F15A29;
   -o-transition: .25s ease-in-out;
   transition: .25s ease-in-out;
 }
-#break:hover.overlay{
-  opacity: 3;
+.overlay:hover #break{
+  opacity: 0.3;
+}
+.overlay:hover #lun{
+  opacity: 0.3;
+}
+.overlay:hover #din{
+  opacity: 0.3;
 }
 .images-border{
   border-color: transparent;
@@ -136,18 +142,17 @@ background-color: #F15A29;
   background-color: grey;
   padding: 24px;
 }
-
-/*.overlay{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #E5E5E5 ;
-  color: #FFFFFF ;
-  text-transform: capitalize;
-  font-size: 30px;*/
+.customer-page{
+  background-color: grey;
+}
+.col-lg-8 img{
+  -webkit-transition: all 10s ease;
+       -moz-transition: all 10s ease;
+        -ms-transition: all 10s ease;
+            transition: all 10s ease;
+}
+.col-lg-8 img:hover{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
