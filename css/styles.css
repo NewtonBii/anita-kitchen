@@ -48,6 +48,7 @@ body{
   background-image: url("../img/foodsBg.jpg");
   background-repeat: no-repeat;
 
+
 }
 
 .container#second-last{
@@ -82,9 +83,6 @@ background-color: #F15A29;
   width: 950px;
 
 }
-#tab1.tab-content{
-  padding: 5px 15px;
-}
 .col-lg-4{
   border-left-style: outset;
   border-width: thick;
@@ -92,7 +90,7 @@ background-color: #F15A29;
 }
 .tab-content{
   background-color: white;
-  height: 270px;
+  height: 300px;
 }
 
 .col-lg-3:hover #break{
