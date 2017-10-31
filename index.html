@@ -18,21 +18,12 @@
   </head>
   <body>
     <div class="container">
+
       <div class="container" id="first-page">
-        <div class="col-md-12 media">
-          <div class="col-md-12 overlay">
-            <div class="menu">
-              <div id="myNav" class="overlayMenu">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <div class="overlay-content">
-                  <a href="#"></a>
-                  <a href="#"></a>
-                  <a href="#"></a>
-                </div>
-              </div>
-              <span class="navIcon" onclick="openNav()">&#9776; </span>
-            </div>
-          </div>
+        <div id="nav-icon1" style="margin:0px">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
         <img src="img/logoBig.png" style="display:block; margin:auto">
         <p id="we">We Provide the Best Food</br> At the <strong>Right Price</strong></p>
@@ -99,10 +90,19 @@
             <div class="tab-content">
               <div class="tab-pane active" id="1">
                 <button style="color:#F15A29"class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-                  <img src="img/chickenBurger.jpg">
-                  <img src="img/beefBurger.jpg">
-                  <img src="img/chickenPizza.jpg">
-                <button style="color:#F15A29"class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                  <figure style="display:inline-block">
+                    <img src="img/chickenBurger.jpg">
+                    <figcaption style="color:#F15A29;font-weight:bolder">Chicken Burger</figcaption>
+                  </figure>
+                  <figure style="display:inline-block">
+                    <img src="img/beefBurger.jpg">
+                    <figcaption style="color:#F15A29;font-weight:bolder">Beef Burger</figcaption>
+                  </figure>
+                  <figure style="display:inline-block">
+                    <img src="img/chickenPizza.jpg">
+                    <figcaption style="color:#F15A29;font-weight:bolder">Chicken Pizza</figcaption>
+                  </figure>
+                <button style="color:#F15A29"class="w3-button w3-display-left" onclick="plusDivs(+1)">&#10095;</button>
               </div>
                 <div class="tab-pane" id="2">
                 </div>
@@ -119,9 +119,9 @@
                       <h5>George Richard</h5>
                         <p>Great Food! Menu awesome, there foods are not only great but</br>also in the right price. I'll highly recommend them :)</p>
                         <button style="color:#F15A29"class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-                          <img src="img/p1.png" class="mySlides">
-                          <img src="img/p2.png" class="mySlides">
-                          <img src="img/p3.png" class="mySlides">
+                          <img src="img/p1.png">
+                          <img src="img/p2.png">
+                          <img src="img/p3.png">
                         <button style="color:#F15A29"class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
                   </div>
                   <div class="col-lg-4" style="text-align:center">
