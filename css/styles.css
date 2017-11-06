@@ -95,13 +95,16 @@ background-color: #F15A29;
   height: 270px;
 }
 
-.overlay:hover #break{
+.overlay1:hover{
   opacity: 0.3;
 }
-.overlay:hover #lun{
+.overlay2:hover{
   opacity: 0.3;
 }
-.overlay:hover #din{
+.overlay3:hover{
+  opacity: 0.3;
+}
+.overlay:hover{
   opacity: 0.3;
 }
 .images-border{
