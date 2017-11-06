@@ -4,7 +4,8 @@ $(document).ready(function () {
     event.preventDefault();
     alert("Congratulations! You Have Succesfully been added to our mailing list.");
   });
-  $('#nav-icon1').click(function(){
-		$(this).toggleClass('open');
-	});
+});
+
+$("#toggle").click(function(event){
+  $("#sidebar").fadeToggle(500);
 });
