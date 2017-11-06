@@ -8,3 +8,7 @@ $(document).ready(function () {
 		$(this).toggleClass('open');
 	});
 });
+
+$("#toggle").click(function(event){
+  $("#sidebar").fadeToggle(500);
+});
